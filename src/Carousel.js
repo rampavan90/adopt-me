@@ -11,7 +11,6 @@ class Carousel extends React.Component {
     if (media.length) {
       photos = media.map(({ large }) => large);
     }
-
     return { photos };
   }
 
